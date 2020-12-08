@@ -1,0 +1,5 @@
+# Log files
+*.Log
+*.log.*
+
+.vscode
