@@ -1,23 +1,38 @@
-# chatbot
+# Driveless Taxi chatbot 
 
-This a simple chatbot app using NLP (Natural Language Processing ) and Deep Learning for a humanoid robot.
-The app should allow the Robot to have a normal assistant discussion with a user.
+## Overview
+This is IA chatbot application for driveless taxi using NLP (Natural Language Processing ) and Deep Learning.
+The main goal of the app is to interact with the client after he gets in the car.
+- It ask the client to enter the adress destination, recommends songs, places to visit like restaurant, shop and so on
+- It also assures the passnger comfort and the security during the driving.
 
-## Requirements tools : 
-- Python 3.7.*
-## Requirements librairies : 
-- Pytorch
-- NLTK
+## Requirements tools  
+- Python 3.7.* 
+- NLTK 
+- Pytorch 
 
-## Usage :
+## Libraries
 
-On going ...
+Install the required libaries by running the script below 
+```bash
+./run_setup.sh
+```
 
-## Status : 
+## Usage 
 
-On going ...
+To run the app :
 
+```bash
+./run_app.sh
+```
 
-## Useful links :
+## Output files
 
-``` PS : Be free to leave some comments or any suggestions ``` 
+*.log :log files
+## Useful links
+
+This application is inspired from : 
+
+- https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077?gi=68480999d4c7 
+- https://www.youtube.com/watch?v=RpWeNzfSUHw
+- nltk.org
