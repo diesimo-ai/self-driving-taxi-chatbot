@@ -1,15 +1,15 @@
 # Driveless Taxi chatbot 
 
-## Overview
-This is IA chatbot application for driveless taxi using NLP (Natural Language Processing ) and Deep Learning.
+## Over view
+This is IA chatbot application for self-driving taxi using NLP (Natural Language Processing ) and Deep Learning.
 The main goal of the app is to interact with the client after he gets in the car.
-- It ask the client to enter the adress destination, recommends songs, places to visit like restaurant, shop and so on
-- It also assures the passnger comfort and the security during the driving.
+- It ask the client to enter the destination adress, recommends songs, places to visit like: restaurant, shop and so on
+- It also assures the passenger comfort and the security during the driving.
 
 ## Requirements tools  
-- Python 3.7.* 
+- Python 3.7
 - NLTK 
-- Pytorch 
+- PyTorch 
 
 ## Libraries
 
