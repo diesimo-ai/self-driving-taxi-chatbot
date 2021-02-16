@@ -1,0 +1,30 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello, How are you ? ",
+                "Good morning, please enter your destination ?"
+            ],
+            "responses": [
+                "I am fine",
+                "Good! And you ?"
+            ] 
+
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye ",
+                "see you soon"
+            ],
+            "responses": [
+                "Bye! :-)",
+                "Thank you :-)"
+            ] 
+
+        }
+    ]
+
+}
