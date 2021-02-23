@@ -2,4 +2,8 @@
 *.Log
 *.log.*
 
-.vscode 
+# vsc env 
+.vscode
+
+# _pycache
+__pycache__

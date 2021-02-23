@@ -5,6 +5,7 @@ This is IA chatbot application for self-driving taxi using NLP (Natural Language
 The main goal of the app is to interact with the client after he gets in the car.
 - It ask the client to enter the destination adress, recommends songs, places to visit like: restaurant, shop and so on
 - It also assures the passenger comfort and the security during the driving.
+- The passenger can share its device connection with the car(blutooth...) and start interating(chating) with the car ask whatever he wants, and available.  
 
 ## Requirements tools  
 - Python 3.7

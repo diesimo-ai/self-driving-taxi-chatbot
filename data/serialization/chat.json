@@ -1,29 +1,97 @@
 {
     "intents": [
         {
-            "tag": "greetings",
+            "tag": "greeting",
+            "patterns": ["Hi", "Hey", "Hello!", "How are you?","Good day"],
+            "responses": [
+                "Hey! Welcome",
+                "Hello good to see you again!",
+                "Hello there, how can I help?",
+                "Hi there, where you want to go?"
+            ] 
+        },
+        {
+            "tag": "destination",
             "patterns": [
-                "Hello, How are you ? ",
-                "Good morning, please enter your destination ?"
+                "I want to go to Eiffel Tower ?",
+                "I want to get to Champs Elysées?",
+                "Take me to Bastille",
+                "Take me to Chatelet",
+                "Here's my destination adress"
             ],
             "responses": [
-                "I am fine",
-                "Good! And you ?"
+                "Eiffel Tower, here we go !",
+                "Chatelet it is!",
+                "Of course!"
             ] 
-
         },
-
+        {
+            "tag": "safety",
+            "patterns": [
+                "where is the safety belt ?",
+                "the belt ?",
+                "Shall we go ?"
+            ],
+            "responses": [
+                "the belt is on your right",
+                "there's no belt",
+                "put your belt, your safety is our priority"
+            ] 
+        },
+        {
+            "tag": "comfort",
+            "patterns": [
+                "Any relaxing music ? ",
+                "Anything to eat ? ",
+                "Do you have netflix ?",
+                "Something to drink ? "
+            ],
+            "responses": [
+                "I have Jazz and african music",
+                "for eat, We have chocolate and lollipop",
+                "for drink, We have some fresh water, please yourself!",
+                "Are you comfortable ?"
+            ] 
+        },
+        {"tag": "taxi",
+            "patterns": ["Which taxi do you have?", "What kinds of taxi are there?", "What do you rent?" ],
+            "responses": ["We rent Tesla, Mercedeces and Waymo taxi", "We have Tesla, Waymo and Uber taxi"]
+        },
+        {
+            "tag": "visit",
+            "patterns": [
+                "Is there a restaurant new by?",
+                "Where can I find a nightclub?",
+                "Beautiful place to visit ?",
+                "where is the mall ?"
+            ],
+            "responses": [
+                "For restaurant and nightclub google it",
+                "Yes, there are some great places around here"
+            ] 
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["You're welcome", "happy to help", "My pleasure"] 
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit card ?", 
+                "can I pay by subscription card ?", 
+                "Are you cash only ?", 
+                "Do you give change?"
+            ],
+            "responses": [
+                "Yes, I accept cash", 
+                "Yes, I accept subscription card"
+            ] 
+        },
         {
             "tag": "goodbye",
-            "patterns": [
-                "goodbye ",
-                "see you soon"
-            ],
-            "responses": [
-                "Bye! :-)",
-                "Thank you :-)"
-            ] 
-
+            "patterns": ["Bye!","good bye ","see you soon !"],
+            "responses": [ "See you next time","see ya !","Bye!"] 
         }
     ]
 
