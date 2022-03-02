@@ -1,2 +1,2 @@
-nltk
-pytorch
+nltk==3.5.0
+pytorch==1.7.0
