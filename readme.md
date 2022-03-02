@@ -18,7 +18,7 @@ The main goal of the app is to interact with the client/passenger after he gets 
 
 Install the required libaries by running the script below 
 ```bash
-./run_setup.sh
+sudo ./run_setup.sh
 ```
 
 ## Usage 
