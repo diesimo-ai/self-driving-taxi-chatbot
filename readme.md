@@ -29,10 +29,10 @@ To run the app :
 ./run_app.sh
 ```
 
-## Input sinals
+## Input signals
 - Questions from the users (Strings/text format)
 
-## Output sinals
+## Output signals
 - Answers based on a AI/ML+DL model (Strings/text format)
 - log files
 
