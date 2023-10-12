@@ -16,10 +16,9 @@
 #   <numpy> : standard library
 #		- Provides multidimensional arrays and linear algebra tools, optimized for speed
 #
-# File history :
+# Revisions:
 # Afondiel  |  09.12.2020 | Creation 
-# Afondiel  |  23.02.2021 | Last modification 
-# Afondiel  |  02.03.2022 | move main into root directory 
+# Afondiel  |  11.10.2023 | Last modification 
 
 import os
 import sys
@@ -29,12 +28,12 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from module.chat_launch import chat_start
-from module.data_processing import nlp_functions
-from module.chatclassifier.data_collection import data_prep
-from module.chatclassifier.chat_dataset import ChatDataset
-from module.chatclassifier.chat_model import ChatNeuralNet
-from module.chatclassifier.chat_classifier import ChatClassifier
+from src.module.chat_launch import chat_start
+from src.module.data_processing import nlp_functions
+from src.module.chatclassifier.data_collection import data_prep
+from src.module.chatclassifier.chat_dataset import ChatDataset
+from src.module.chatclassifier.chat_model import ChatNeuralNet
+from src.module.chatclassifier.chat_classifier import ChatClassifier
 
 
 """ 
